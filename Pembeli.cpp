@@ -10,11 +10,11 @@ void menuPembeli()
 	{
 		system("CLS");
 		cout<<"============ TOKO SEPATU ============="<<endl;
-		cout<<"|(1). Beli Sepatu                    |"<<endl;
-		cout<<"|(2). Menampilkan Data Sepatu        |"<<endl;
-		cout<<"|(3). Urutkan Sepatu                 |"<<endl;
-		cout<<"|(4). Cari Sepatu                    |"<<endl;
-		cout<<"|(5). Keluar                         |"<<endl;
+		cout<<"| (1). Beli Sepatu                   |"<<endl;
+		cout<<"| (2). Menampilkan Data Sepatu       |"<<endl;
+		cout<<"| (3). Urutkan Sepatu                |"<<endl;
+		cout<<"| (4). Cari Sepatu                   |"<<endl;
+		cout<<"| (5). Keluar                        |"<<endl;
 		cout<<"======================================"<<endl;
 		cout<<"Silahkan Pilih Menu Yang ingin Di Pilih? : ";cin>>menu;
 		switch(menu)
