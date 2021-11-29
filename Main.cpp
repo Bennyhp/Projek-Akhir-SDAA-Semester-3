@@ -13,11 +13,14 @@ int main()
 	while(pilihan != 3)
 	{
 		system("CLS");
-		cout<< "Selamat Datang Di Toko Sepatu" <<endl;
-		cout<< "1. Masuk Sebagai Admin"<<endl;
-		cout<< "2. Masuk Sebagai Pembeli"<<endl;
-		cout<< "3. Keluar"<<endl;
-		cout<< "Masukan Pilihan Anda :";cin>>pilihan;
+		cout<<"==================================="<<endl;
+		cout<<"|  Selamat Datang Di Toko Sepatu  |"<<endl;
+		cout<<"|---------------------------------|"<<endl;
+		cout<<"| (1). Masuk Sebagai Admin        |"<<endl;
+		cout<<"| (2). Masuk Sebagai Pembeli      |"<<endl;
+		cout<<"| (3). Keluar                     |"<<endl;
+		cout<<"==================================="<<endl;
+		cout<<"Masukan Pilihan Anda :";cin>>pilihan;
 		switch(pilihan)
 		{
 			case 1:
